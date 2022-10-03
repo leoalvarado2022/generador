@@ -1,0 +1,33 @@
+{
+  "name": "newciclo",
+  "version": "1.0.0",
+  "description": "codigo para recibir las peticiones y procesarlas en una cola de xertify",
+  "main": "handler.js",
+  "scripts": {
+    "offline": "sls offline start --skipCacheInvalidation",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/storage-blob": "^12.8.0",
+    "@types/dotenv": "^4.0.3",
+    "axios": "^0.24.0",
+    "dotenv": "^6.0.0",
+    "fs": "0.0.1-security",
+    "got": "^11.8.3",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mustache": "^4.2.0",
+    "mysql": "^2.18.1",
+    "path": "^0.12.7",
+    "qr-image": "^3.2.0",
+    "request": "^2.88.2",
+    "sib-api-v3-sdk": "^8.2.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.1025.0",
+    "serverless-offline": "^8.3.1"
+  }
+}

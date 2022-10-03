@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1">
+<title>Email espanol</title>
+<style type="text/css">
+.contenedor {
+	width: 520px;
+	min-width: 520px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #393939;
+}
+.button {
+	display: block;
+	text-align: center;
+	background: #273444;
+	border: 1px solid #273444;
+	padding: 10px;
+	text-decoration: none;
+}
+a {
+	text-decoration: none;
+}
+.grid2 {
+	width: 250px;
+	float: left;
+	margin: 0px 16px 10px;
+}
+.btnbig {
+}
+
+@media only screen and (max-width:630px) {
+.contenedor {
+	display: block;
+	min-width: 280px;
+	width: 280px;
+	margin: 10px auto;
+	padding: 0;
+}
+.btnbig {
+	width: 235px;
+}
+}
+</style>
+</head>
+<body>
+	<table border="0" cellspacing="0" cellpadding="10" style="margin: 0 auto">
+  <tbody>	
+	
+    <tr>
+      <td width="20" cellspacing="0" cellpadding="10" >&nbsp;</td>
+      <td cellspacing="0" cellpadding="10"><!--Inicio email-->
+<table class="contenedor" width="520" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td bgcolor="#fff" height="10"></td>
+  </tr>
+  <tr>
+    <td><table width="100%" border="0" cellspacing="0" cellpadding="10">
+        <tr >
+          <td style="padding:10px 0px; border-bottom: 1px dashed #ababab;" align="left" > <a href="${webAddress}" target="_blank"><img src="${companyImg}"  alt="Xertify" class="CToWUd" width="200"  style="width: 200px; display:block; float:left;" alt="Logo"  title="xertify.co"/></a></td>
+        </tr>
+      </table></td>
+  </tr>
+  <tr> </tr>
+  <!--inicio content-->
+  <tr>
+    <td bgcolor="#fff" style="padding:35px 0 0px; font-size:16px;" width="520"><span style="color: #3d4452">Hola, ${usernames} :</span><br />
+      <br /></td>
+  </tr>
+  <tr>
+    <td bgcolor="#fff" style="padding:0px 0 0px; font-size:16px;" width="520">${companyName} te ha emitido un certificado para el evento <strong>${eventName}</strong>. En el adjunto encontrarás los archivos relacionados. <br /></td>
+  </tr>
+  <tr>
+    <td style="padding:0;" align=""><br/>
+      <a class="button btnbig" style="border-radius: 4px; text-decoration: none; width: 160px; display: block; font-size: 14px; color: #fff; padding: 10px 20px; background: #273444; border: 1px solid #273444; text-align: center !important;"  href="${tiedocsCodeLink}" target="_blank">Consultar certificado</a></td>
+  </tr>
+  <tr>
+    <td bgcolor="#fff" style="padding:10px 0 0px; font-size:14px;" width="520">Tu código es: <strong>${tiedocsCode}</strong><br/></td>
+  </tr>
+  <tr>
+    <td bgcolor="#fff" style="padding:40px 0 0px; font-size:16px;" width="520">Si ya tienes cuenta en Xertify ingresa para ver tus certificados. <br /></td>
+  </tr>
+  <tr>
+    <td style="padding:0;" align="" ><br/>
+      <a class="button btnbig" style="border-radius: 4px; text-decoration: none; width: 140px; display: block; font-size: 14px; color: #273444; padding: 10px 20px; background: #f5f9fc; margin: 0 0 50px; border: 1px solid #c4d8f1;" 
+	href="https://wallet.xertify.co/" target="_blank">Ingresar a mi cuenta</a></td>
+  </tr>
+  <tr>
+    <td bgcolor="#fff"  width="520"> <span style="padding:20px; font-size:13px; background: #f5f9fc; text-align:left; display: table;">Este certificado fue generado a través de <a href="https://xertify.co/" target="_blank" style="color:#393939"><strong>Xertify</strong></a>. A partir de este momento eres parte de la comunidad de intercambio de información certificada más moderna y grande de la red.</span></td>
+  </tr>
+  <tr>
+    <td bgcolor="#fff" style="padding:20px 0 0px; font-size:16px;" width="520">Atentamente, <br /></td>
+  </tr>
+  <tr>
+    <td style="
+    float: left;
+    width: 100%;" align="center"><table width="100%" border="0" cellspacing="0" cellpadding="10">
+        <tr>
+          <td width="100%" align="center" ><table style="border-collapse:collapse" align="center" width="100%" cellspacing="0" cellpadding="0" border="0" >
+              <tbody>
+                <tr>
+                  <td align="center"><table style="border-collapse:collapse; width:100%" align="center" cellspacing="0" cellpadding="0" border="0" >
+                      <tbody>
+                        <tr>
+                          <td style="font-family:Verdana,Arial,Tahoma;font-size:12px;line-height:25px;font-weight:normal;font-style:normal;color:#363843; text-align:left" align="center"><a href="https://xertify.co/" style="    color: #363843; text-decoration: none; font-size: 16px; margin-bottom: 30px !important; float: left;" target="_blank"><img src="https://resourcesxert.s3.amazonaws.com/Xertify/logo_firma.jpg" style="display:block; float:left; " alt="Xertify" class="CToWUd" border="0"></a></td>
+                        </tr>
+                      </tbody>
+                    </table></td>
+                </tr>
+              </tbody>
+            </table></td>
+        </tr>
+      </table></td>
+  </tr>
+</table></td>
+      <td width="20" cellspacing="0" cellpadding="10" >&nbsp;</td>
+    </tr>
+	
+	
+	  </tbody>
+</table>
+
+</body>
+</html>

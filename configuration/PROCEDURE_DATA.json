@@ -1,0 +1,17 @@
+{
+    "certificateGenerationId": "",
+    "certificateGenerationName": "",
+    "requestApiId": "",
+    "staffId": "",
+    "prodId": "",
+    "accId": "",
+    "numberOfCertificates": 0,
+    "targetFolder": "",
+    "awsBucket": "xertitest",
+    "qtyA": 0,
+    "qtyB": 0,
+    "qtyC": 0,
+    "qtyD": 0,
+    "notificationsParam": "W",
+    "finalResultArray": []
+}

@@ -1,0 +1,19 @@
+{
+    "host": "",
+    "user": "",
+    "password": "",
+    "database": "",
+    "connectTimeout"  : 360000,
+    "acquireTimeout"  : 360000,
+    "timeout"         : 360000,
+    "urlSQSProcessData":"https://sqs.us-east-1.amazonaws.com/908717545587/firstSQS",
+    "arnSQSProcessData":"arn:aws:sqs:us-east-1:908717545587:firstSQS",
+    "urlWallet":"https://wallet.xertify.co/certificates/",
+    "azureUrl":"",
+    "azureContainer":"files",
+    "azureKey":"",
+    "azureAccount":"",
+    "azureFullUrl":"",
+    "awsKey":"",
+    "awsSecret":""
+}
